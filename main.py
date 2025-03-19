@@ -66,36 +66,6 @@ def cleaned_dictory(raw_path):
     return cleaned_path
 
 
-
-
-# def testing_list_directories(directory_path, file_names):
-#     """ Test the list_directories function. It prints the file names in the directory. The file names are appended to the directory path wiht '/'.
-#     so everu file name is a path.
-#     Args:
-#         directory_path (str): The path to the directory to list.
-#         file_names (list): List of file names to print.
-#     Returns:
-#         list of file names in the directory
-#     """
-#     # Test with a valid directory
-#     print("Testing with a file_names in the arraya: and I can printout the file names")
-    
-#     # Get list of files in the directory
-#     file_names = list_directories(directory_path)
-    
-#     # Print the file count
-#     print(f"Found {len(file_names)} files in {directory_path}")
-    
-#     # Print each file as a full path
-#     for file_name in file_names:
-#         full_path = os.path.join(directory_path, file_name)
-#         print(full_path)
-    
-    
-#     return True
-
-
-
 def automatic_editing(directory_path, list_file_names):
     """ Automatically edit files in the given directory.
     Args:
