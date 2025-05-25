@@ -1,0 +1,19 @@
+# Auto-Editor Generated Files
+example_ALTERED.mp4
+*https*
+config.pal
+
+# Python Generated Files
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# OS Files
+.DS_Store
+

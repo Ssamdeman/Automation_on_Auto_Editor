@@ -1,0 +1,145 @@
+.
+├── auto_editor
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── analyze.py
+│   ├── cmds
+│   │   ├── __init__.py
+│   │   ├── cache.py
+│   │   ├── desc.py
+│   │   ├── info.py
+│   │   ├── levels.py
+│   │   ├── palet.py
+│   │   ├── repl.py
+│   │   ├── subdump.py
+│   │   └── test.py
+│   ├── edit.py
+│   ├── ffwrapper.py
+│   ├── formats
+│   │   ├── __init__.py
+│   │   ├── fcp11.py
+│   │   ├── fcp7.py
+│   │   ├── json.py
+│   │   ├── shotcut.py
+│   │   └── utils.py
+│   ├── help.py
+│   ├── json.py
+│   ├── lang
+│   │   ├── __init__.py
+│   │   ├── libintrospection.py
+│   │   ├── libmath.py
+│   │   ├── palet.py
+│   │   └── stdenv.py
+│   ├── lib
+│   │   ├── __init__.py
+│   │   ├── contracts.py
+│   │   ├── data_structs.py
+│   │   └── err.py
+│   ├── make_layers.py
+│   ├── preview.py
+│   ├── render
+│   │   ├── __init__.py
+│   │   ├── audio.py
+│   │   ├── subtitle.py
+│   │   └── video.py
+│   ├── timeline.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   ├── bar.py
+│   │   ├── chunks.py
+│   │   ├── cmdkw.py
+│   │   ├── container.py
+│   │   ├── func.py
+│   │   ├── log.py
+│   │   └── types.py
+│   └── vanparse.py
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── docs
+│   ├── build.py
+│   ├── components
+│   │   ├── cls_center.css
+│   │   ├── core_style.css
+│   │   ├── head_icon.html
+│   │   ├── header.html
+│   │   ├── headerdesc.html
+│   │   ├── init_head.html
+│   │   └── nav.html
+│   ├── doc.pal
+│   ├── make.nim
+│   ├── Makefile
+│   ├── package.json
+│   ├── README.md
+│   ├── server.js
+│   └── src
+│       ├── 404.html
+│       ├── docs
+│       │   ├── file-size.md
+│       │   ├── index.md
+│       │   ├── range-syntax.md
+│       │   ├── subcommands
+│       │   │   ├── cache.md
+│       │   │   ├── desc.md
+│       │   │   ├── index.md
+│       │   │   ├── info.md
+│       │   │   ├── levels.md
+│       │   │   ├── palet.md
+│       │   │   ├── repl.md
+│       │   │   └── subdump.md
+│       │   ├── supported-media.md
+│       │   ├── v1.md
+│       │   └── v3.md
+│       ├── favicon
+│       │   ├── android-chrome-192x192.png
+│       │   ├── android-chrome-512x512.png
+│       │   ├── apple-touch-icon.png
+│       │   ├── favicon-16x16.png
+│       │   ├── favicon-32x32.png
+│       │   ├── favicon.ico
+│       │   └── site.webmanifest
+│       ├── img
+│       │   ├── auto-editor-banner.svg
+│       │   ├── auto-editor-banner.webp
+│       │   ├── cross-platform.webp
+│       │   └── text.svg
+│       ├── index.html
+│       ├── installing.html
+│       └── ref
+│           └── index.md
+├── example.mp4
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── resources
+│   ├── aac.m4a
+│   ├── alac.m4a
+│   ├── embedded-image
+│   │   ├── h264-mjpeg.mkv
+│   │   ├── h264-mjpeg.mp4
+│   │   ├── h264-png.mkv
+│   │   └── h264-png.mp4
+│   ├── mono.mp3
+│   ├── mov_text.mp4
+│   ├── multi-track.mov
+│   ├── new-commentary.mp3
+│   ├── only-video
+│   │   ├── man-on-green-screen.gif
+│   │   └── man-on-green-screen.mp4
+│   ├── SAR-2by3.mp4
+│   ├── scripts
+│   │   ├── case.pal
+│   │   ├── maxcut.pal
+│   │   ├── scope.pal
+│   │   └── testmath.pal
+│   ├── test_yuv422p.mp4
+│   ├── testsrc-hevc.mp4
+│   ├── testsrc.mkv
+│   ├── testsrc.mp4
+│   ├── wav
+│   │   ├── example-cut-s16le.wav
+│   │   ├── pcm-f32le.wav
+│   │   └── pcm-s32le.wav
+│   └── webvtt.mkv
+└── tree_structure_of_auto-editor.txt
+
+21 directories, 122 files
