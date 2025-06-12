@@ -14,7 +14,7 @@ Follow the installation instructions for your operating system (Windows, macOS, 
 
 ### 2. Download the Script
 
-Download the `autoeditor.py` file and save it to your computer.
+Download the `v2_main.py` file and save it to your computer.
 
 ## How to Use
 
@@ -45,19 +45,19 @@ Download this python code: https://github.com/Ssamdeman/Automation_on_Auto_Edito
 Open your terminal/command prompt and run:
 
 ```bash
-python3 autoeditor.py "/path/to/your/video/directory"
+python3 v2_main.py "/path/to/your/video/directory"
 ```
 
 **Examples:**
 
 Windows:
 ```bash
-python3 autoeditor.py "C:\Users\YourName\Videos\MyVideos"
+python3 v2_main.py "C:\Users\YourName\Videos\MyVideos"
 ```
 
 macOS/Linux:
 ```bash
-python3 autoeditor.py "/Users/YourName/Videos/MyVideos"
+python3 v2_main.py "/Users/YourName/Videos/MyVideos"
 ```
 
 ### Step 4: Wait for Processing
